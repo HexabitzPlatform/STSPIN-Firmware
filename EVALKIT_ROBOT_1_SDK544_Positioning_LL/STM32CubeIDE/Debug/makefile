@@ -63,8 +63,8 @@ all: main-build
 main-build: EVALKIT_ROBOT_1_SDK544_Positioning_LL\ -\ STM32IDE.elf secondary-outputs
 
 # Tool invocations
-EVALKIT_ROBOT_1_SDK544_Positioning_LL\ -\ STM32IDE.elf EVALKIT_ROBOT_1_SDK544_Positioning_LL\ -\ STM32IDE.map: $(OBJS) $(USER_OBJS) C:\Users\Control\Documents\Hexabitz\Hexabitz\ BLDC\STSPIN-Firmware\EVALKIT_ROBOT_1_SDK544_Positioning_LL\STM32CubeIDE\STM32F031C6TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "EVALKIT_ROBOT_1_SDK544_Positioning_LL - STM32IDE.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"C:\Users\Control\Documents\Hexabitz\Hexabitz BLDC\STSPIN-Firmware\EVALKIT_ROBOT_1_SDK544_Positioning_LL\STM32CubeIDE\STM32F031C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EVALKIT_ROBOT_1_SDK544_Positioning_LL - STM32IDE.map" -Wl,--gc-sections -static -L../../MCSDK_v5.4.4/MotorControl/lib --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+EVALKIT_ROBOT_1_SDK544_Positioning_LL\ -\ STM32IDE.elf EVALKIT_ROBOT_1_SDK544_Positioning_LL\ -\ STM32IDE.map: $(OBJS) $(USER_OBJS) F:\HDD\Hexabiz_0.3.4FF\STSPIN-Firmware\EVALKIT_ROBOT_1_SDK544_Positioning_LL\STM32CubeIDE\STM32F031C6TX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "EVALKIT_ROBOT_1_SDK544_Positioning_LL - STM32IDE.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m0 -T"F:\HDD\Hexabiz_0.3.4FF\STSPIN-Firmware\EVALKIT_ROBOT_1_SDK544_Positioning_LL\STM32CubeIDE\STM32F031C6TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="EVALKIT_ROBOT_1_SDK544_Positioning_LL - STM32IDE.map" -Wl,--gc-sections -static -L../../MCSDK_v5.4.4/MotorControl/lib --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

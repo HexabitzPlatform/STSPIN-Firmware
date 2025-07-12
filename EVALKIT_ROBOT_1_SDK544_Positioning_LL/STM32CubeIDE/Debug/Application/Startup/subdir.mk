@@ -16,7 +16,7 @@ S_DEPS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 Application/Startup/%.o: ../Application/Startup/%.s Application/Startup/subdir.mk
-	arm-none-eabi-gcc -mcpu=cortex-m0 -g3 -c -I"C:/Users/Control/Documents/Hexabitz/Hexabitz BLDC/STSPIN-Firmware/EVALKIT_ROBOT_1_SDK544_Positioning_LL/STM32CubeIDE/Command_Driver_APIs" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m0 -g3 -c -I"F:/HDD/Hexabiz_0.3.4FF/STSPIN-Firmware/EVALKIT_ROBOT_1_SDK544_Positioning_LL/STM32CubeIDE/Command_Driver_APIs" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfloat-abi=soft -mthumb -o "$@" "$<"
 
 clean: clean-Application-2f-Startup
 

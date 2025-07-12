@@ -47,6 +47,9 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN PV */
+uint8_t rxData[11];           // Buffer to store received serial data (11 bytes)
+uint8_t index = 0;            // Index for tracking received bytes
+int messageCounter;           // Counter for processed messages
 
 /* USER CODE END PV */
 
@@ -107,24 +110,38 @@ void TIM16_IRQHandler(void)
 
   /* USER CODE END TIM16_IRQn 1 */
 }
-
 /**
-  * @brief This function handles USART1 global interrupt / USART1 wake-up interrupt through EXTI line 25.
-  */
+ * @brief  USART1 interrupt service routine
+ * @note   Handles reception of serial data and error conditions
+ * @retval None
+ */
 void USART1_IRQHandler(void) {
-	static uint8_t rxData[11], index;
-	if (LL_USART_IsEnabledIT_RXNE(USART1)) {
-		rxData[index] = (uint8_t) LL_USART_ReceiveData8(USART1);
-		index++;
-		if (index >= 11) {
-			ProcessReceivedMessage(rxData);
+    // Check for Overrun Error
+    if (LL_USART_IsActiveFlag_ORE(USART1)) {
+        LL_USART_ClearFlag_ORE(USART1); // Clear overrun error flag
+       // Note: Add LED toggle or debug output for overrun error if needed
+    }
 
-			index = 0;
-		}
+    // Check for received data
+    if (LL_USART_IsActiveFlag_RXNE(USART1)) {
+        uint8_t byte = LL_USART_ReceiveData8(USART1); // Read received byte
 
-	}
+        rxData[index++] = byte; // Store byte in buffer and increment index
+
+        // Check if full message (11 bytes) is received
+        if (index >= 11) {
+            messageCounter++; // Increment message counter
+            ProcessReceivedMessage(rxData); // Process the received message
+
+            // Clear the receive buffer
+            for (uint8_t i = 0; i < 11; i++) {
+                rxData[i] = 0; // Reset buffer element
+            }
+
+            index = 0; // Reset index for next message
+        }
+    }
 }
-
 /* USER CODE BEGIN 1 */
 
 /* USER CODE END 1 */
