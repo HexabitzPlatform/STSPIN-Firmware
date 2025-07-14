@@ -92,62 +92,62 @@ bool isMovementComplete(void) {
  * @retval uint8_t - Returns 0 on success
  */
 uint8_t ProcessReceivedMessage(uint8_t *message) {
-    // Extract first and second 4 bytes from the message
-    FirstBytesRevdMSG[0] = message[3];
-    FirstBytesRevdMSG[1] = message[4];
-    FirstBytesRevdMSG[2] = message[5];
-    FirstBytesRevdMSG[3] = message[6];
-    SecondBytesRevdMSG[0] = message[7];
-    SecondBytesRevdMSG[1] = message[8];
-    SecondBytesRevdMSG[2] = message[9];
-    SecondBytesRevdMSG[3] = message[10];
+	// Extract first and second 4 bytes from the message
+	FirstBytesRevdMSG[0] = message[3];
+	FirstBytesRevdMSG[1] = message[4];
+	FirstBytesRevdMSG[2] = message[5];
+	FirstBytesRevdMSG[3] = message[6];
+	SecondBytesRevdMSG[0] = message[7];
+	SecondBytesRevdMSG[1] = message[8];
+	SecondBytesRevdMSG[2] = message[9];
+	SecondBytesRevdMSG[3] = message[10];
 
-    // Validate message header (0x48, 0x5A)
-    if (message[0] == 72 && message[1] == 90) {
-        switch (message[2]) {
-            case STOP_MOTOR:
-            	messageCounter--; // Decrement counter (purpose unclear)
+	// Validate message header (0x48, 0x5A)
+	if (message[0] == 72 && message[1] == 90) {
+		switch (message[2]) {
+		case STOP_MOTOR:
+			messageCounter--; // Decrement counter (purpose unclear)
 
-                comState = STOP_MOTOR; // Set state to stop motor
-                break;
-            case SET_POSITION:
-            	messageCounter--; // Decrement counter (purpose unclear)
+			comState = STOP_MOTOR; // Set state to stop motor
+			break;
+		case SET_POSITION:
+			messageCounter--; // Decrement counter (purpose unclear)
 
-                MC_StartMotor1(); // Start motor
-                ProcessReceivedFloat(FirstBytesRevdMSG, &Postion); // Extract position
-                ProcessReceivedFloat(SecondBytesRevdMSG, &DurationPosition); // Extract duration
-                comState = SET_POSITION; // Set state to position control
-                break;
-            case SET_SPEED:
-            	messageCounter--; // Decrement counter (purpose unclear)
-                MC_StartMotor1(); // Start motor
-                ProcessReceivedUint16(FirstBytesRevdMSG, &Time); // Extract time
-                ProcessReceivedInt16(SecondBytesRevdMSG, &Speed); // Extract speed
-                comState = SET_SPEED; // Set state to speed control
-                break;
-            case SET_TORQUE:
-            	messageCounter--; // Decrement counter (purpose unclear)
+			MC_StartMotor1(); // Start motor
+			ProcessReceivedFloat(FirstBytesRevdMSG, &Postion); // Extract position
+			ProcessReceivedFloat(SecondBytesRevdMSG, &DurationPosition); // Extract duration
+			comState = SET_POSITION; // Set state to position control
+			break;
+		case SET_SPEED:
+			messageCounter--; // Decrement counter (purpose unclear)
+			MC_StartMotor1(); // Start motor
+			ProcessReceivedUint16(FirstBytesRevdMSG, &Time); // Extract time
+			ProcessReceivedInt16(SecondBytesRevdMSG, &Speed); // Extract speed
+			comState = SET_SPEED; // Set state to speed control
+			break;
+		case SET_TORQUE:
+			messageCounter--; // Decrement counter (purpose unclear)
 
-                MC_StartMotor1(); // Start motor
-                ProcessReceivedUint16(FirstBytesRevdMSG, &Time); // Extract time
-                ProcessReceivedInt16(SecondBytesRevdMSG, &Torque); // Extract torque
-                comState = SET_TORQUE; // Set state to torque control
-                break;
-            case GET_POSITION:
-            	messageCounter--; // Decrement counter (purpose unclear)
+			MC_StartMotor1(); // Start motor
+			ProcessReceivedUint16(FirstBytesRevdMSG, &Time); // Extract time
+			ProcessReceivedInt16(SecondBytesRevdMSG, &Torque); // Extract torque
+			comState = SET_TORQUE; // Set state to torque control
+			break;
+		case GET_POSITION:
+			messageCounter--; // Decrement counter (purpose unclear)
 
-                comState = GET_POSITION; // Set state to get position
-                break;
-            case GET_CONTROL_MODE:
-            	messageCounter--; // Decrement counter (purpose unclear)
+			comState = GET_POSITION; // Set state to get position
+			break;
+		case GET_CONTROL_MODE:
+			messageCounter--; // Decrement counter (purpose unclear)
 
-                comState = GET_CONTROL_MODE; // Set state to get control mode
-                break;
-            default:
-                break; // Ignore invalid commands
-        }
-    }
-    return 0; // Success
+			comState = GET_CONTROL_MODE; // Set state to get control mode
+			break;
+		default:
+			break; // Ignore invalid commands
+		}
+	}
+	return 0; // Success
 }
 /* USER CODE END 0 */
 
@@ -209,42 +209,7 @@ int main(void) {
 
     /* Main loop */
     while (1) {
-//        MC_ProgramSpeedRampMotor1(1000, 50); // Set speed
-//
-//   MC_StartMotor1();
-//        MC_StartMotor1(); // Start motor
-
-    	MC_ProgramTorqueRampMotor1(-5000, 500);     // 1
-//    	HAL_Delay(1000);
-//
-//    	MC_ProgramTorqueRampMotor1(2000, 1000);    // 2
-//    	HAL_Delay(1500);
-//
-//    	MC_ProgramTorqueRampMotor1(5000, 300);     // 3
-//    	HAL_Delay(1000);
-//
-//    	MC_ProgramTorqueRampMotor1(0, 1000);       // 4
-//    	HAL_Delay(1500);
-//
-//    	MC_ProgramTorqueRampMotor1(-1500, 700);    // 5
-//    	HAL_Delay(1000);
-//
-//    	MC_ProgramTorqueRampMotor1(-4000, 200);    // 6
-//    	HAL_Delay(1000);
-//
-//    	MC_ProgramTorqueRampMotor1(1000, 5000);    // 7
-//    	HAL_Delay(6000);
-//
-//    	MC_ProgramTorqueRampMotor1(8000, 1500);    // 8
-//    	HAL_Delay(2000);
-//
-//    	MC_ProgramTorqueRampMotor1(3000, 0);       // 9
-//    	HAL_Delay(1000);
-//
-//    	MC_ProgramTorqueRampMotor1(-10000, 500);   // 10
-//    	HAL_Delay(1500);
-
-        // Blink LED if counter z >= 5
+        // Blink LED if counter messageCounter >= 5
         if (messageCounter >= 5) {
             LL_GPIO_SetOutputPin(LED_GPIO_Port, LED_Pin); // Turn on LED
             HAL_Delay(200); // Delay 200ms
@@ -274,7 +239,7 @@ int main(void) {
                 MC_ProgramSpeedRampMotor1(Speed, Time); // Set speed
                 break;
             case SET_TORQUE:
-                MC_ProgramTorqueRampMotor1(1000, 100); // Set torque
+                MC_ProgramTorqueRampMotor1(Torque, Time); // Set torque
                 break;
             case GET_POSITION:
                 curPosition = MC_GetCurrentPosition1(); // Get current position
