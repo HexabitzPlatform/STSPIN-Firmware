@@ -1,0 +1,621 @@
+2020-06-25 14:28:20,373 DEBUG [Main.lambda$run$0] Arguments: [-ioc, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\EVALKIT_ROBOT_1_SDK544_Positioning_LL.ioc, -xdm, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\EVALKIT_ROBOT_1_SDK544_Positioning_LL.wb_def]
+2020-06-25 14:28:20,389 DEBUG [ArgsValue.readPropertiesFile] [AppConfig] pack.source = "C:\Program Files (x86)\STMicroelectronics\MC_SDK_5.4.4\Middlewares\ST\MotorControl" 
+2020-06-25 14:28:20,390 DEBUG [ArgsValue.readPropertiesFile] [UserConfig] pack.source not found
+2020-06-25 14:28:20,391 DEBUG [ArgsValue.getConfigProperties] pack.source = "../../../../Middlewares/ST/MotorControl"
+2020-06-25 14:28:20,418 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[xdm]: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\EVALKIT_ROBOT_1_SDK544_Positioning_LL.wb_def
+2020-06-25 14:28:20,419 DEBUG [ArgsValue.lambda$retrieve$2] CLI_ARG[ioc]: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\EVALKIT_ROBOT_1_SDK544_Positioning_LL.ioc
+2020-06-25 14:28:20,424 DEBUG [ArgsValue.retrieve] {xdm=C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\EVALKIT_ROBOT_1_SDK544_Positioning_LL.wb_def, updftl=templates/wb_ioc_mc-middleware.ftl, mx_timeout=-1, exp=templates/wb-defines_where_and_what.txt, ioc=C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\EVALKIT_ROBOT_1_SDK544_Positioning_LL.ioc, pack=../../../../Middlewares/ST/MotorControl, ftl=templates/wb_ioc_template.ftl}
+2020-06-25 14:28:20,624 DEBUG [Main.run] Targeted MCU family = F0
+2020-06-25 14:28:20,744 DEBUG [Main.run] Minimum associated CubeMx to the `F0` targeted MCU family is `4.25.0-a0`
+2020-06-25 14:28:20,792 DEBUG [WindowsCubeMxFinder.lambda$findThem$2] Found 64-bit subkey HKEY_LOCAL_MACHINE\~~~\Uninstall\STM32CubeMX
+2020-06-25 14:28:20,800 DEBUG [WindowsCubeMxFinder.lambda$findThem$2] Found 64-bit subkey HKEY_LOCAL_MACHINE\~~~\Uninstall\STM32CubeMX(1)
+2020-06-25 14:28:20,840 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\STM32CubeMX.exe'
+2020-06-25 14:28:20,841 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\plugins\updater.jar'
+2020-06-25 14:28:20,853 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX 5.4\STM32CubeMX.exe'
+2020-06-25 14:28:20,853 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX 5.4\plugins\updater.jar'
+2020-06-25 14:28:20,911 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\STM32CubeMX.exe'
+2020-06-25 14:28:20,911 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\plugins\updater.jar'
+2020-06-25 14:28:20,916 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX 5.4\STM32CubeMX.exe'
+2020-06-25 14:28:20,916 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX 5.4\plugins\updater.jar'
+2020-06-25 14:28:20,974 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\STM32CubeMX.exe'
+2020-06-25 14:28:20,974 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\plugins\updater.jar'
+2020-06-25 14:28:20,978 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX 5.4\STM32CubeMX.exe'
+2020-06-25 14:28:20,979 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX 5.4\plugins\updater.jar'
+2020-06-25 14:28:29,277 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\STM32CubeMX.exe'
+2020-06-25 14:28:29,277 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\plugins\updater.jar'
+2020-06-25 14:28:29,282 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX 5.4\STM32CubeMX.exe'
+2020-06-25 14:28:29,283 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX 5.4\plugins\updater.jar'
+2020-06-25 14:28:29,685 DEBUG [EnvironmentChecker.checkPack] STM32CubeMX.Version: 5.6.1-RC1
+2020-06-25 14:28:29,774 DEBUG [MxUpdaterFactory.lambda$create$2] failed first attempt to instantiate MxUpdater (v_27)
+2020-06-25 14:28:30,646 DEBUG [MxUpdaterFactory.lambda$create$3] Updater instantiated
+2020-06-25 14:28:30,656 DEBUG [MxUpdater.lambda$whait_while_busy$12] MxUpdater still busy - await for 50 milliseconds before to retry
+2020-06-25 14:28:30,707 DEBUG [MxUpdater.lambda$whait_while_busy$12] MxUpdater still busy - await for 50 milliseconds before to retry
+2020-06-25 14:28:30,759 DEBUG [MxUpdater.lambda$whait_while_busy$12] MxUpdater still busy - await for 50 milliseconds before to retry
+2020-06-25 14:28:30,810 DEBUG [MxUpdater.lambda$whait_while_busy$12] MxUpdater no more busy
+2020-06-25 14:28:30,811 DEBUG [MxUpdaterFactory.lambda$create$4] Updater initialization complete
+2020-06-25 14:28:30,815 DEBUG [MxUpdaterValidator.lambda$getVerifiedRepositoryFolder$e68017fb$1] Repository Folder Exist: C:\Users\enrico poli\STM32Cube\Repository
+2020-06-25 14:28:30,828 DEBUG [RetrieveFirmwareVersion.from_PackConfig_xfile] Looking for version from MotorControl_Configs.xml: C:\Program Files (x86)\STMicroelectronics\MC_SDK_5.4.4\Middlewares\ST\MotorControl\MotorControl_Configs.xml
+2020-06-25 14:28:30,860 DEBUG [RetrieveFirmwareVersion.minimum_supporte_version] minimum_supporte_version MotorControlFirmware.Version: 5.4.3
+2020-06-25 14:28:30,864 DEBUG [PackInfoFactory.deploy_MCPack_to_MxRepo] Deployment strategy class: VersionedFolderStyle_MCPackDeployer
+2020-06-25 14:28:30,865 DEBUG [PackInfoFactory.deploy_MCPack_to_MxRepo] Expected MC Pack 5.4.4 already deployed
+2020-06-25 14:28:30,907 DEBUG [DataSetUpdater.update] Updating data set
+2020-06-25 14:28:30,909 DEBUG [DataSetUpdater.update] Update done
+2020-06-25 14:28:30,909 INFO  [IocGenerator.logModulesVersionInfo] Version info: 
+2020-06-25 14:28:30,939 INFO  [IocGenerator.logModulesVersionInfo]   MC Workbench       : 5.4.4.20160
+2020-06-25 14:28:30,941 INFO  [IocGenerator.logModulesVersionInfo]   WB_to_Mx           : 1.1.0.template-20-04-17
+2020-06-25 14:28:30,945 INFO  [IocGenerator.logModulesVersionInfo]   STM32CubeMX        : 5.6.1
+2020-06-25 14:28:30,946 INFO  [IocGenerator.logModulesVersionInfo]   MC Firmware Library: 5.4.4
+2020-06-25 14:28:30,946 INFO  [IocGenerator.logModulesVersionInfo] Generation options: 
+2020-06-25 14:28:30,947 INFO  [IocGenerator.logModulesVersionInfo]   Target Toolchain   : ST STM32CubeIDE
+2020-06-25 14:28:30,948 INFO  [IocGenerator.logModulesVersionInfo]   Target Driver      : LL - Low Level
+2020-06-25 14:28:30,949 INFO  [IocGenerator.logModulesVersionInfo]   Target STM32 FW    : 1.11.0
+
+2020-06-25 14:28:30,970 DEBUG [IocGenerator.process] Generating ioc file: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\EVALKIT_ROBOT_1_SDK544_Positioning_LL.ioc
+2020-06-25 14:28:30,972 DEBUG [IocGenerator.createOutput] Generating file from template templates\wb_ioc_template.ftl
+2020-06-25 14:28:33,044 DEBUG [IocGenerator.process] Generated ioc file C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\EVALKIT_ROBOT_1_SDK544_Positioning_LL.ioc
+2020-06-25 14:28:33,050 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated ioc: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\EVALKIT_ROBOT_1_SDK544_Positioning_LL.ioc
+2020-06-25 14:28:33,089 INFO  [Wb2MxProcess.lambda$create_extSettings_file_in$82c805cd$1] Generated C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\.extSettings
+2020-06-25 14:28:33,572 DEBUG [CubeMxRunner.create_code_generation_script_for] Generated CubeMx script file: C:\Users\ENRICO~2\AppData\Local\Temp\WB_to_Mx-evalkitrobotsdkpositioningll-6746114481160816873.script
+2020-06-25 14:28:33,587 DEBUG [SignalCatcher.listenTo] Listen to signal INT
+2020-06-25 14:28:33,587 DEBUG [SignalCatcher.listenTo] Listen to signal TERM
+2020-06-25 14:28:33,588 INFO  [CubeMxRunner.run$] Code generation started
+2020-06-25 14:28:34,121 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,115 [INFO] MicroXplorer:570 - Detected Java Version = 1.8.0_231
+2020-06-25 14:28:34,127 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,127 [INFO] ApplicationProperties:181 - Using Application install path: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX
+2020-06-25 14:28:34,171 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,168 [INFO] DbMcusXml:72 - Set database path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/mcu/
+2020-06-25 14:28:34,176 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,175 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/boardmanager/
+2020-06-25 14:28:34,177 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,176 [INFO] DbMcus:235 - Set plugin images path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2020-06-25 14:28:34,177 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,177 [INFO] DbBoards:232 - Set plugin images path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2020-06-25 14:28:34,192 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,192 [INFO] DbMcusAds:85 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/
+2020-06-25 14:28:34,194 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,193 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/
+2020-06-25 14:28:34,206 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,206 [INFO] DbMcusJson:61 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/
+2020-06-25 14:28:34,208 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,207 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/
+2020-06-25 14:28:34,209 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,209 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/
+2020-06-25 14:28:34,258 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,257 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-06-25 14:28:34,578 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,576 [INFO] RulesReader:52 - Compatibility file has been processed (208 Rules)
+2020-06-25 14:28:34,730 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:34,728 [INFO] STM32CubeMX:31 - Starting STM32CubeMX
+2020-06-25 14:28:35,563 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,563 [INFO] MainPanel:181 - HeapMemory: 128974848
+2020-06-25 14:28:35,826 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,823 [INFO] DbMcusXml:72 - Set database path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/mcu/
+2020-06-25 14:28:35,827 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,826 [INFO] DbBoardsPdsc:54 - Set plugin database path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/boardmanager/
+2020-06-25 14:28:35,828 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,827 [INFO] DbMcus:235 - Set plugin images path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2020-06-25 14:28:35,828 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,828 [INFO] DbBoards:232 - Set plugin images path to: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/plugins/mcufinder/images/
+2020-06-25 14:28:35,829 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,829 [INFO] DbMcusAds:85 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/
+2020-06-25 14:28:35,831 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,830 [INFO] DbMcusDocs:108 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/
+2020-06-25 14:28:35,834 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,833 [INFO] DbMcusJson:61 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/
+2020-06-25 14:28:35,835 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,835 [INFO] DbBoardsDocs:97 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/
+2020-06-25 14:28:35,837 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,836 [INFO] DbBoardsJson:51 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/
+2020-06-25 14:28:35,854 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,853 [INFO] CrossReferenceDbSqlite:197 - Set database path to: C:\Users\enrico poli\.stmcufinder\plugins\mcufinder//mcu/cs/
+2020-06-25 14:28:35,889 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,888 [INFO] ApplicationProperties:181 - Using Application install path: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX
+2020-06-25 14:28:35,891 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,891 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, tutovideos]
+2020-06-25 14:28:35,906 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:35,905 [INFO] PluginManage:292 - Check plugin analytics
+2020-06-25 14:28:36,509 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:36,508 [INFO] AnalyticsPlugin:172 - Accepted Software Licenses: STM32CubeMX.5.2.0,STM32CubeMX.5.3.0,STM32CubeMX.5.5.0
+2020-06-25 14:28:36,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:36,509 [INFO] AnalyticsPlugin:174 - Accepted CMSIS Pack Licenses: 
+2020-06-25 14:28:36,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:36,510 [INFO] AnalyticsPlugin:176 - Accepted Firmware Licenses: 
+2020-06-25 14:28:36,512 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:36,511 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2020-06-25 14:28:36,513 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:36,513 [INFO] PluginManage:292 - Check plugin clock
+2020-06-25 14:28:36,568 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:36,567 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2020-06-25 14:28:36,569 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:36,568 [INFO] PluginManage:292 - Check plugin ddr
+2020-06-25 14:28:36,585 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:36,584 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2020-06-25 14:28:36,596 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:36,595 [INFO] PluginManage:292 - Check plugin filemanager
+2020-06-25 14:28:37,042 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,041 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2020-06-25 14:28:37,044 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,042 [INFO] PluginManage:292 - Check plugin ipmanager
+2020-06-25 14:28:37,094 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,094 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2020-06-25 14:28:37,095 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,095 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2020-06-25 14:28:37,126 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,126 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2020-06-25 14:28:37,127 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,126 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2020-06-25 14:28:37,380 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,379 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2020-06-25 14:28:37,380 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,380 [INFO] PluginManage:292 - Check plugin power
+2020-06-25 14:28:37,405 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,405 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2020-06-25 14:28:37,406 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,406 [INFO] PluginManage:292 - Check plugin projectmanager
+2020-06-25 14:28:37,529 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,528 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2020-06-25 14:28:37,530 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,529 [INFO] PluginManage:292 - Check plugin thirdparty
+2020-06-25 14:28:37,809 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,808 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/enrico poli/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 137 ms. number of Sw pack : 21
+2020-06-25 14:28:37,893 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,892 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2020-06-25 14:28:37,894 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,893 [INFO] PluginManage:292 - Check plugin tools
+2020-06-25 14:28:37,907 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,907 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2020-06-25 14:28:37,908 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,908 [INFO] PluginManage:292 - Check plugin tutovideos
+2020-06-25 14:28:37,910 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,910 [INFO] PluginManage:347 - Ignore plugin tutovideos (category:base)
+2020-06-25 14:28:37,911 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,910 [INFO] PluginManage:292 - Check plugin updater
+2020-06-25 14:28:37,957 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,957 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2020-06-25 14:28:37,959 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:37,959 [INFO] PluginManage:265 - PluginManage : Loaded plugins [12]
+2020-06-25 14:28:38,364 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,363 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-25 14:28:38,541 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,540 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,541 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,541 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2020-06-25 14:28:38,547 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,545 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,550 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,548 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2020-06-25 14:28:38,556 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,556 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,557 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,556 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2020-06-25 14:28:38,560 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,560 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,561 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,561 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2020-06-25 14:28:38,570 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,569 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,571 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,570 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2020-06-25 14:28:38,578 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,578 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,579 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,578 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2020-06-25 14:28:38,591 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,590 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,594 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,593 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2020-06-25 14:28:38,597 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,596 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,597 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,596 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2020-06-25 14:28:38,612 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,611 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,613 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,612 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2020-06-25 14:28:38,625 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,624 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,625 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,625 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2020-06-25 14:28:38,628 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,627 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,628 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,628 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2020-06-25 14:28:38,631 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,630 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,631 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,631 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2020-06-25 14:28:38,640 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,640 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,641 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,640 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2020-06-25 14:28:38,645 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,644 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,645 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,645 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2020-06-25 14:28:38,650 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,648 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,653 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,652 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2020-06-25 14:28:38,658 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,658 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,658 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,658 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2020-06-25 14:28:38,661 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,660 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,661 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,661 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2020-06-25 14:28:38,667 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,666 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,667 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,667 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2020-06-25 14:28:38,673 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,672 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,673 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,672 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2020-06-25 14:28:38,675 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,675 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,675 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,675 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2020-06-25 14:28:38,679 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,678 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,679 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,679 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2020-06-25 14:28:38,686 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,686 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,687 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,686 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2020-06-25 14:28:38,690 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,689 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,690 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,690 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2020-06-25 14:28:38,694 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,693 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,695 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,694 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2020-06-25 14:28:38,705 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,705 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,708 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,708 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2020-06-25 14:28:38,721 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,721 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,722 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,721 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2020-06-25 14:28:38,725 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,724 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,725 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,725 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2020-06-25 14:28:38,729 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,728 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,729 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,728 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2020-06-25 14:28:38,735 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,735 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,736 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,735 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2020-06-25 14:28:38,740 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,739 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,741 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,741 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2020-06-25 14:28:38,745 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,744 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,745 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,745 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2020-06-25 14:28:38,753 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,753 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,754 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,753 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2020-06-25 14:28:38,756 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,755 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,756 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,756 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2020-06-25 14:28:38,759 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,758 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,759 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,758 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2020-06-25 14:28:38,761 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,761 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,762 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,761 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2020-06-25 14:28:38,764 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,764 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,765 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,764 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2020-06-25 14:28:38,771 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,771 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:38,772 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:38,771 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2020-06-25 14:28:40,185 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:40,184 [INFO] Updater:886 - Updater Version found : 5.6.1
+2020-06-25 14:28:40,218 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:40,218 [INFO] ApplicationProperties:181 - Using Application install path: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX
+2020-06-25 14:28:40,505 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:40,504 [INFO] MainUpdater:2230 - connection check result : 10
+2020-06-25 14:28:40,507 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:40,506 [INFO] MainUpdater:236 - Updater Check For Update Now.
+2020-06-25 14:28:40,508 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:40,508 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-25 14:28:40,692 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:40,692 [INFO] CheckServerUpdateThread:92 - End of CheckServer Thread
+2020-06-25 14:28:41,770 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:41,770 [INFO] ThirdPartyDb:261 - Close Third Party DataBase File (C:/Users/enrico poli/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml)
+2020-06-25 14:28:41,953 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:41,953 [INFO] DbMcusAds:143 - JSON generation date=Thu Apr 30 15:50:56 CEST 2020 (1588254656)
+2020-06-25 14:28:41,989 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:41,988 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-06-25 14:28:42,024 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,024 [INFO] IntegrityCheckThread:98 - End integrity checks thread
+2020-06-25 14:28:42,069 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,068 [INFO] McuDetailPanel:181 - Set advertising image to C:/Users/enrico poli/STM32Cube/Repository/\PR_STM32Cube_GitHub_0320_V1.png
+2020-06-25 14:28:42,075 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,074 [INFO] LoadUrlFilesThread:161 - End of LoadServerUrlFiles without Thread
+2020-06-25 14:28:42,076 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,076 [INFO] McuDetailPanel:181 - Set advertising image to C:/Users/enrico poli/STM32Cube/Repository/\PR_STM32Cube_GitHub_0320_V1.png
+2020-06-25 14:28:42,141 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,141 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-25 14:28:42,142 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,141 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-25 14:28:42,148 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,147 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-25 14:28:42,318 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,317 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-25 14:28:42,319 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,318 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-25 14:28:42,323 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,323 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-25 14:28:42,341 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,341 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 38788864 Bytes (206569472)
+2020-06-25 14:28:42,369 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,369 [INFO] MicroXplorer:390 - Change Database Path : 
+2020-06-25 14:28:42,370 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,369 [INFO] MicroXplorer:420 - Change Database Version : DB.5.0.60
+2020-06-25 14:28:42,371 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:42,371 [INFO] OpenFileManager:274 - Change cursor
+2020-06-25 14:28:48,851 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:48,851 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2020-06-25 14:28:49,004 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,003 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Instance) has Id (ADC) currently not set
+2020-06-25 14:28:49,005 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,005 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Direction) has Id (ADC) currently not set
+2020-06-25 14:28:49,006 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,006 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphInc) has Id (ADC) currently not set
+2020-06-25 14:28:49,007 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,007 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemInc) has Id (ADC) currently not set
+2020-06-25 14:28:49,009 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,008 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (PeriphDataAlignment) has Id (ADC) currently not set
+2020-06-25 14:28:49,010 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,009 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (MemDataAlignment) has Id (ADC) currently not set
+2020-06-25 14:28:49,010 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,010 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Mode) has Id (ADC) currently not set
+2020-06-25 14:28:49,011 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,011 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (DMA) : Parameter (Priority) has Id (ADC) currently not set
+2020-06-25 14:28:49,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,303 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (ADC_AHBPERIPH)
+2020-06-25 14:28:49,304 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,304 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (ADC_CLOCK_WB_FREQ)
+2020-06-25 14:28:49,305 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,305 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (BKIN1_FILTER)
+2020-06-25 14:28:49,306 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,305 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (BKIN2_FILTER)
+2020-06-25 14:28:49,306 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,306 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (BRKIN_GPIO_AF)
+2020-06-25 14:28:49,307 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,307 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (BRKIN2_GPIO_AF)
+2020-06-25 14:28:49,308 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,307 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (CCMRAM_ENABLED)
+2020-06-25 14:28:49,308 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,308 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (CLOCK_FREQUENCY)
+2020-06-25 14:28:49,309 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,308 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (CLOCK_SOURCE)
+2020-06-25 14:28:49,311 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,310 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (CPU_CLK_48_MHZ)
+2020-06-25 14:28:49,313 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,312 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (DC_CURRENT_RS_MEAS)
+2020-06-25 14:28:49,317 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,316 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (DEFAULT_DAC_MOTOR)
+2020-06-25 14:28:49,320 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,320 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (DRIVES_NUMBER_SELECTION)
+2020-06-25 14:28:49,322 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,321 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (EMERGENCY_STOP_GPIO_PIN)
+2020-06-25 14:28:49,323 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,322 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (EMERGENCY_STOP_GPIO_PORT)
+2020-06-25 14:28:49,323 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,323 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (EMERGENCY2_STOP_GPIO_PIN)
+2020-06-25 14:28:49,324 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,324 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (EMERGENCY2_STOP_GPIO_PORT)
+2020-06-25 14:28:49,325 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,324 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (ENC_A_GPIO_PIN)
+2020-06-25 14:28:49,328 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,328 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (ENC_A_GPIO_PORT)
+2020-06-25 14:28:49,334 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,334 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (ENC_B_GPIO_PIN)
+2020-06-25 14:28:49,335 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,335 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (ENC_B_GPIO_PORT)
+2020-06-25 14:28:49,337 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,336 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (ENC_INVERT_SPEED)
+2020-06-25 14:28:49,338 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,338 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (ENC_TIMER_REMAPPING)
+2020-06-25 14:28:49,339 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,339 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (ENCODER_AVAILABLE)
+2020-06-25 14:28:49,340 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,340 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (EXT_CLOCK_FREQUENCY)
+2020-06-25 14:28:49,341 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,341 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (FEEDBACK_NET_FILTERING)
+2020-06-25 14:28:49,344 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,343 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (H1_GPIO_PIN)
+2020-06-25 14:28:49,345 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,344 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (H1_GPIO_PORT)
+2020-06-25 14:28:49,349 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,347 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (H2_GPIO_PIN)
+2020-06-25 14:28:49,350 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,350 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (H2_GPIO_PORT)
+2020-06-25 14:28:49,351 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,351 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (H3_GPIO_PIN)
+2020-06-25 14:28:49,353 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,352 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (H3_GPIO_PORT)
+2020-06-25 14:28:49,354 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,353 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HALL_SENSORS_AVAILABLE)
+2020-06-25 14:28:49,355 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,354 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HALL_TIMER_REMAPPING)
+2020-06-25 14:28:49,355 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,355 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HFI_DEBUG_MODE)
+2020-06-25 14:28:49,356 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,355 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HFI_IDH_DELAY)
+2020-06-25 14:28:49,356 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,356 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HFI_MAXANGLEDIFF)
+2020-06-25 14:28:49,357 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,356 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HFI_RESTART_RPM_TH)
+2020-06-25 14:28:49,357 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,357 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HFI_RESTARTTIMESEC)
+2020-06-25 14:28:49,358 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,357 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HFI_REVERT_DIRECTION)
+2020-06-25 14:28:49,358 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,358 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HFI_STEPANGLE)
+2020-06-25 14:28:49,358 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,358 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HFI_WAITSYNCH)
+2020-06-25 14:28:49,359 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,358 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HFI_WAITTRACK)
+2020-06-25 14:28:49,360 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,359 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HIGH_SIDE_BRAKE_STATE)
+2020-06-25 14:28:49,361 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,361 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (HW_COMPLEMENTED_LOW_SIDE)
+2020-06-25 14:28:49,362 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,362 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Parameter (INRUSH_CURRLIMIT_AT_POWER_ON) has invalid value (true)
+2020-06-25 14:28:49,367 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,363 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (INRUSH_CURRLIMIT_GPIO_PIN)
+2020-06-25 14:28:49,368 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,367 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (INRUSH_CURRLIMIT_GPIO_PORT)
+2020-06-25 14:28:49,369 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,369 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (INT_RC_OSC)
+2020-06-25 14:28:49,370 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,370 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (IPs)
+2020-06-25 14:28:49,373 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,372 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (LCD_JOYSTICK_FUNCTIONALITY)
+2020-06-25 14:28:49,375 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,373 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (LCD_MODE)
+2020-06-25 14:28:49,376 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,375 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (LDLQ_RATIO)
+2020-06-25 14:28:49,376 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,376 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (LOW_SIDE_BRAKE_STATE)
+2020-06-25 14:28:49,376 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,376 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MAX_MODULATION_100_PER_CENT)
+2020-06-25 14:28:49,377 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,376 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MC_WORKBENCH_VERSION)
+2020-06-25 14:28:49,377 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,376 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MCU)
+2020-06-25 14:28:49,377 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,376 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MCU_TYPE)
+2020-06-25 14:28:49,377 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,376 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (MOTOR_TYPE)
+2020-06-25 14:28:49,378 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,377 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_COMP_THRESHOLD)
+2020-06-25 14:28:49,378 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,378 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_FILTER)
+2020-06-25 14:28:49,379 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,378 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_INVERTINGINPUT)
+2020-06-25 14:28:49,380 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,379 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_INVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,383 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,382 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_INVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,384 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,383 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_NONINVERTINGINPUT)
+2020-06-25 14:28:49,384 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,384 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_NONINVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,385 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,384 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_NONINVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,385 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,385 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_OUTPUT)
+2020-06-25 14:28:49,386 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,385 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_OUTPUT_GPIO_AF)
+2020-06-25 14:28:49,386 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,386 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_OUTPUT_GPIO_PIN)
+2020-06-25 14:28:49,386 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,386 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_OUTPUT_GPIO_PORT)
+2020-06-25 14:28:49,387 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,386 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_OUTPUT_MODE)
+2020-06-25 14:28:49,391 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,390 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCP_OUTPUTPOL)
+2020-06-25 14:28:49,393 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,392 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_INVERTINGINPUT)
+2020-06-25 14:28:49,394 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,394 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_INVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,396 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,395 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_INVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,397 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,396 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_NONINVERTINGINPUT)
+2020-06-25 14:28:49,401 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,401 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_NONINVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,401 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,401 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_NONINVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,403 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,401 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_OUTPUT)
+2020-06-25 14:28:49,404 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,403 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_OUTPUT_GPIO_AF)
+2020-06-25 14:28:49,405 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,404 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_OUTPUT_GPIO_PIN)
+2020-06-25 14:28:49,406 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,406 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_OUTPUT_GPIO_PORT)
+2020-06-25 14:28:49,407 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,407 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_OUTPUT_MODE)
+2020-06-25 14:28:49,409 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,409 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPA_OUTPUTPOL)
+2020-06-25 14:28:49,410 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,410 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_INVERTINGINPUT)
+2020-06-25 14:28:49,412 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,412 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_INVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,416 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,413 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_INVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,418 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,417 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_NONINVERTINGINPUT)
+2020-06-25 14:28:49,418 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,418 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_NONINVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,422 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,422 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_NONINVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,424 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,423 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_OUTPUT)
+2020-06-25 14:28:49,424 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,424 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_OUTPUT_GPIO_AF)
+2020-06-25 14:28:49,425 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,425 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_OUTPUT_GPIO_PIN)
+2020-06-25 14:28:49,426 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,425 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_OUTPUT_GPIO_PORT)
+2020-06-25 14:28:49,426 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,426 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_OUTPUT_MODE)
+2020-06-25 14:28:49,427 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,426 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPB_OUTPUTPOL)
+2020-06-25 14:28:49,427 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,427 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_INVERTINGINPUT)
+2020-06-25 14:28:49,428 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,427 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_INVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,428 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,428 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_INVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,432 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,429 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_NONINVERTINGINPUT)
+2020-06-25 14:28:49,434 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,434 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_NONINVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,435 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,434 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_NONINVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,435 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,435 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_OUTPUT)
+2020-06-25 14:28:49,436 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,435 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_OUTPUT_GPIO_AF)
+2020-06-25 14:28:49,436 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,435 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_OUTPUT_GPIO_PIN)
+2020-06-25 14:28:49,436 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,436 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_OUTPUT_GPIO_PORT)
+2020-06-25 14:28:49,437 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,436 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_OUTPUT_MODE)
+2020-06-25 14:28:49,437 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,436 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OCPC_OUTPUTPOL)
+2020-06-25 14:28:49,438 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,437 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_INVERTINGINPUT)
+2020-06-25 14:28:49,438 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,438 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_INVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,439 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,438 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_INVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,443 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,442 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_INVERTINGINPUT_MODE)
+2020-06-25 14:28:49,444 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,443 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_NONINVERTINGINPUT)
+2020-06-25 14:28:49,445 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,444 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_NONINVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,446 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,445 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_NONINVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,453 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,452 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_OUT_GPIO_PIN)
+2020-06-25 14:28:49,456 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,456 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_OUT_GPIO_PORT)
+2020-06-25 14:28:49,459 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,458 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_PGACONNECT)
+2020-06-25 14:28:49,460 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,460 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_PGAGAIN)
+2020-06-25 14:28:49,461 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,461 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP_TYPE_GAIN)
+2020-06-25 14:28:49,461 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,461 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP1_INVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,462 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,461 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP1_INVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,462 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,461 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP1_INVERTINGINPUT_MODE)
+2020-06-25 14:28:49,462 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,461 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP1_NONINVERTINGINPUT_PHA_GPIO_PIN)
+2020-06-25 14:28:49,463 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,461 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP1_NONINVERTINGINPUT_PHA_GPIO_PORT)
+2020-06-25 14:28:49,467 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,462 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP1_NONINVERTINGINPUT_PHB_GPIO_PIN)
+2020-06-25 14:28:49,468 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,467 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP1_NONINVERTINGINPUT_PHB_GPIO_PORT)
+2020-06-25 14:28:49,468 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,467 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP1_OUT_GPIO_PIN)
+2020-06-25 14:28:49,468 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,468 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP1_OUT_GPIO_PORT)
+2020-06-25 14:28:49,469 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,468 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP2_INVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,469 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,468 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP2_INVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,470 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,469 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP2_INVERTINGINPUT_MODE)
+2020-06-25 14:28:49,470 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,470 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP2_NONINVERTINGINPUT_PHA_GPIO_PIN)
+2020-06-25 14:28:49,474 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,474 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP2_NONINVERTINGINPUT_PHA_GPIO_PORT)
+2020-06-25 14:28:49,476 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,475 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP2_NONINVERTINGINPUT_PHB_GPIO_PIN)
+2020-06-25 14:28:49,476 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,476 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP2_NONINVERTINGINPUT_PHB_GPIO_PORT)
+2020-06-25 14:28:49,477 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,477 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP2_NONINVERTINGINPUT_PHC_GPIO_PIN)
+2020-06-25 14:28:49,478 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,477 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP2_NONINVERTINGINPUT_PHC_GPIO_PORT)
+2020-06-25 14:28:49,478 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,478 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP2_OUT_GPIO_PIN)
+2020-06-25 14:28:49,479 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,479 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP2_OUT_GPIO_PORT)
+2020-06-25 14:28:49,486 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,486 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP3_INVERTINGINPUT)
+2020-06-25 14:28:49,487 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,486 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP3_INVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,487 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,486 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP3_INVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,487 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,487 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP3_INVERTINGINPUT_MODE)
+2020-06-25 14:28:49,488 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,487 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPAMP3_SELECTION)
+2020-06-25 14:28:49,488 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,488 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPEN_LOOP_K)
+2020-06-25 14:28:49,489 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,489 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPEN_LOOP_OFF)
+2020-06-25 14:28:49,491 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,490 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPEN_LOOP_SPEED_RAMP_DURATION_MS)
+2020-06-25 14:28:49,492 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,492 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPEN_LOOP_SPEED_RPM)
+2020-06-25 14:28:49,493 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,493 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPEN_LOOP_VF)
+2020-06-25 14:28:49,494 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,493 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OPEN_LOOP_VOLTAGE_d)
+2020-06-25 14:28:49,494 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,493 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OV_CURR_BYPASS_GPIO_PIN)
+2020-06-25 14:28:49,494 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,494 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OV_CURR_BYPASS_GPIO_PORT)
+2020-06-25 14:28:49,494 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,494 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVERCURR_FEEDBACK_POLARITY)
+2020-06-25 14:28:49,495 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,494 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_FILTER)
+2020-06-25 14:28:49,495 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,494 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_INVERTINGINPUT)
+2020-06-25 14:28:49,495 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,494 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_INVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,496 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,495 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_INVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,496 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,495 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_INVERTINGINPUT_MODE)
+2020-06-25 14:28:49,503 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,495 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_NONINVERTINGINPUT)
+2020-06-25 14:28:49,503 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,503 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_NONINVERTINGINPUT_GPIO_PIN)
+2020-06-25 14:28:49,504 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,503 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_NONINVERTINGINPUT_GPIO_PORT)
+2020-06-25 14:28:49,504 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,504 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_OUTPUT)
+2020-06-25 14:28:49,504 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,504 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_OUTPUT_GPIO_AF)
+2020-06-25 14:28:49,505 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,504 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_OUTPUT_GPIO_PIN)
+2020-06-25 14:28:49,505 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,505 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_OUTPUT_GPIO_PORT)
+2020-06-25 14:28:49,506 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,506 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_OUTPUT_MODE)
+2020-06-25 14:28:49,508 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,507 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_OUTPUTPOL)
+2020-06-25 14:28:49,508 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,508 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (OVP_SELECTION)
+2020-06-25 14:28:49,509 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,508 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_CURRENTS_GPIO_PIN)
+2020-06-25 14:28:49,509 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,508 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_CURRENTS_GPIO_PORT)
+2020-06-25 14:28:49,509 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,509 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_U_CURR_ADC)
+2020-06-25 14:28:49,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,509 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_U_GPIO_PIN)
+2020-06-25 14:28:49,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,509 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_U_GPIO_PORT)
+2020-06-25 14:28:49,510 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,509 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_UH_GPIO_AF)
+2020-06-25 14:28:49,511 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,509 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_UH_GPIO_PIN)
+2020-06-25 14:28:49,511 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,509 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_UH_GPIO_PORT)
+2020-06-25 14:28:49,511 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,509 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_UH_POLARITY)
+2020-06-25 14:28:49,512 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,509 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_UL_GPIO_AF)
+2020-06-25 14:28:49,512 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,510 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_UL_GPIO_PIN)
+2020-06-25 14:28:49,512 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,510 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_UL_GPIO_PORT)
+2020-06-25 14:28:49,512 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,510 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_UL_POLARITY)
+2020-06-25 14:28:49,513 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,510 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_V_CURR_ADC)
+2020-06-25 14:28:49,513 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,511 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_V_GPIO_PIN)
+2020-06-25 14:28:49,513 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,511 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_V_GPIO_PORT)
+2020-06-25 14:28:49,513 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,511 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_VH_GPIO_AF)
+2020-06-25 14:28:49,514 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,511 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_VH_GPIO_PIN)
+2020-06-25 14:28:49,518 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,515 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_VH_GPIO_PORT)
+2020-06-25 14:28:49,519 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,518 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_VH_POLARITY)
+2020-06-25 14:28:49,519 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,519 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_VL_GPIO_AF)
+2020-06-25 14:28:49,520 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,519 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_VL_GPIO_PIN)
+2020-06-25 14:28:49,520 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,520 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_VL_GPIO_PORT)
+2020-06-25 14:28:49,521 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,520 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_VL_POLARITY)
+2020-06-25 14:28:49,521 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,520 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_W_CURR_ADC)
+2020-06-25 14:28:49,521 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,520 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_W_GPIO_PIN)
+2020-06-25 14:28:49,521 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,520 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_W_GPIO_PORT)
+2020-06-25 14:28:49,521 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,520 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_WH_GPIO_AF)
+2020-06-25 14:28:49,522 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,521 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_WH_GPIO_PIN)
+2020-06-25 14:28:49,522 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,521 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_WH_GPIO_PORT)
+2020-06-25 14:28:49,522 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,521 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_WH_POLARITY)
+2020-06-25 14:28:49,523 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,521 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_WL_GPIO_AF)
+2020-06-25 14:28:49,523 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,521 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_WL_GPIO_PIN)
+2020-06-25 14:28:49,523 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,521 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_WL_GPIO_PORT)
+2020-06-25 14:28:49,523 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,521 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PHASE_WL_POLARITY)
+2020-06-25 14:28:49,524 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,524 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (PWM_TIMER_REMAPPING)
+2020-06-25 14:28:49,524 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,524 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (R_BRAKE_GPIO_PIN)
+2020-06-25 14:28:49,524 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,524 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (R_BRAKE_GPIO_PORT)
+2020-06-25 14:28:49,525 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,524 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (SPD_DIFFERENTIAL_TERM_ENABLING)
+2020-06-25 14:28:49,525 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,524 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (START_STOP_POLARITY)
+2020-06-25 14:28:49,526 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,526 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (START_STOP_POLARITY_EDGE)
+2020-06-25 14:28:49,527 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,526 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (STSPIN32F0A)
+2020-06-25 14:28:49,528 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,527 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (TEMP_FDBK_GPIO_PIN)
+2020-06-25 14:28:49,535 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,534 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (TEMP_FDBK_GPIO_PORT)
+2020-06-25 14:28:49,536 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,535 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (TFDIFFERENTIAL_TERM_ENABLING)
+2020-06-25 14:28:49,536 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,536 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (USART_REMAPPING)
+2020-06-25 14:28:49,536 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,536 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (USART_RX_GPIO_PIN)
+2020-06-25 14:28:49,537 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,536 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (USART_RX_GPIO_PORT)
+2020-06-25 14:28:49,537 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,536 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (USART_SPEED)
+2020-06-25 14:28:49,537 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,536 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (USART_TX_GPIO_PIN)
+2020-06-25 14:28:49,537 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,537 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (USART_TX_GPIO_PORT)
+2020-06-25 14:28:49,539 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,539 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (USE_3OPAMPS)
+2020-06-25 14:28:49,542 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,542 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (VBUS_GPIO_PIN)
+2020-06-25 14:28:49,543 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,543 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (VBUS_GPIO_PORT)
+2020-06-25 14:28:49,550 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,550 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (WB_to_Mx_template_version)
+2020-06-25 14:28:49,551 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,551 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (MotorControl) : Invalid parameter (WB_to_Mx_version)
+2020-06-25 14:28:49,669 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,668 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (TIM1) : Parameter (Pulse) has Id (PWM Generation1 CH1) currently not set
+2020-06-25 14:28:49,669 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,669 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (TIM1) : Parameter (Pulse) has Id (PWM Generation2 CH2) currently not set
+2020-06-25 14:28:49,670 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:49,670 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (TIM1) : Parameter (Pulse) has Id (PWM Generation3 CH3) currently not set
+2020-06-25 14:28:50,042 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:50,042 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 81724416 Bytes (566231040)
+2020-06-25 14:28:50,052 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:50,051 [INFO] DbMcusXml:110 - Load MCU database from C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\/mcu/families.xml
+2020-06-25 14:28:51,150 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:51,150 [INFO] DbMcusJson:90 - JSON generation date=Wed Jun 03 17:10:31 CEST 2020 (1591197031)
+2020-06-25 14:28:53,434 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,433 [INFO] DbMcus:171 - Found 1670 MCUs (1625 are supported by CubeMX, 1625 are visible in CubeMX)
+2020-06-25 14:28:53,435 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,434 [INFO] ApiDb:158 - Load user favorites file C:\Users\enrico poli/.stm32cubemx/favorites.mcus.txt: 3 item(s)
+2020-06-25 14:28:53,435 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,435 [INFO] ApiDb:163 - User favorites MCUs=[STM32F031C6Tx, STM32G031C8Tx, STM32G431VBTx]
+2020-06-25 14:28:53,436 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,436 [INFO] DbMcus:183 - Set 3 / 3 favorites MCUs
+2020-06-25 14:28:53,472 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,471 [INFO] ThirdPartyDb:295 - Open Third Party DataBase File (C:/Users/enrico poli/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 11 ms. number of Sw pack : 21
+2020-06-25 14:28:53,512 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,511 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1579857126240]
+2020-06-25 14:28:53,517 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,516 [INFO] ThirdPartyModel:521 - Component with status : MCU_INCOMPATIBLE for condition : OS Tick GTIM id : 1579857125567
+2020-06-25 14:28:53,519 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,519 [INFO] DependencyParser:785 - This component is not compatible with the current MCU : [1579857128816, 1579857126323]
+2020-06-25 14:28:53,987 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,986 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 6.1.0
+2020-06-25 14:28:53,988 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,987 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 1.0.0
+2020-06-25 14:28:53,988 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,988 [INFO] ThirdParty:899 - CMSIS Pack Vendor :ARM CMSIS 5.6.0
+2020-06-25 14:28:53,988 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,988 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.4.0
+2020-06-25 14:28:53,989 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,988 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.1
+2020-06-25 14:28:53,989 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,988 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 1.5.0
+2020-06-25 14:28:53,990 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,988 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics BlueNRG-MS 1.0.0
+2020-06-25 14:28:53,990 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,990 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2020-06-25 14:28:53,991 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,991 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 6.2.0
+2020-06-25 14:28:53,991 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,991 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 5.2.1
+2020-06-25 14:28:53,993 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,992 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 4.4.0
+2020-06-25 14:28:53,993 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,993 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.0.0
+2020-06-25 14:28:53,994 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,994 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 3.0.0
+2020-06-25 14:28:53,995 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:53,994 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.1.0
+2020-06-25 14:28:54,005 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:54,004 [INFO] ThirdParty:899 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 7.2.0
+2020-06-25 14:28:54,521 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:54,521 [INFO] PinOutPanel:1420 - setPackage(No Configuration,No Configuration)
+2020-06-25 14:28:54,525 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:54,524 [INFO] PinOutPanel:1420 - setPackage(STM32F031C6Tx,LQFP48)
+2020-06-25 14:28:55,923 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:55,923 [INFO] UtilMem:74 - Before build in PCC Used Memory: 527937872 Bytes (706215936)
+2020-06-25 14:28:56,922 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:56,922 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/enrico poli/.stm32cubemx/plugins/power
+2020-06-25 14:28:57,041 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,041 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/enrico poli/.stm32cubemx/plugins/power
+2020-06-25 14:28:57,172 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,172 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/enrico poli/.stm32cubemx/plugins/power
+2020-06-25 14:28:57,192 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,192 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/enrico poli/.stm32cubemx/plugins/power
+2020-06-25 14:28:57,685 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,684 [INFO] UtilMem:74 - After build in PCC Used Memory: 583596200 Bytes (706215936)
+2020-06-25 14:28:57,756 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,755 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,757 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,757 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,758 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,758 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,758 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,758 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,759 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,758 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,760 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,759 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,760 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,760 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,761 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,761 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,762 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,761 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,768 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,767 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,768 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,768 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,769 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,769 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,786 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,785 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,788 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,787 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,789 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,788 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,790 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,789 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,791 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,791 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,791 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,791 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,792 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,792 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,792 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,792 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,792 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,792 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,793 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,793 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,793 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,793 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:57,794 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:57,793 [INFO] IPUIPlugin:65 - create IPUIPlugin
+2020-06-25 14:28:58,500 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:58,500 [INFO] OpenFileManager:294 - Restore cursor
+2020-06-25 14:28:59,404 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:28:59,404 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 354236968 Bytes (867696640)
+2020-06-25 14:29:00,187 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:00,187 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: ADC
+2020-06-25 14:29:00,188 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:00,187 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: NVIC
+2020-06-25 14:29:00,188 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:00,187 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: MotorControl
+2020-06-25 14:29:00,188 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:00,188 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: SYS
+2020-06-25 14:29:00,189 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:00,189 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: GPIO
+2020-06-25 14:29:00,190 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:00,189 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: DMA
+2020-06-25 14:29:00,190 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:00,190 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-25 14:29:00,191 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:00,191 [INFO] BlockDiagram:2671 - set Specific Code input for plugin: TIM1_8F0
+2020-06-25 14:29:00,218 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:00,217 [INFO] CodeGenerator:603 - code generatio: config db path: C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\\db\
+2020-06-25 14:29:02,050 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:02,050 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\MXTmpFiles\license.tmp_save
+2020-06-25 14:29:03,405 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:03,405 [INFO] CodeEngine:206 - Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\MXTmpFiles\license.tmp
+2020-06-25 14:29:05,036 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:05,036 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\MXTmpFiles\gpio.tmp_save
+2020-06-25 14:29:05,335 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:05,335 [INFO] CodeEngine:206 - Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\MXTmpFiles\gpio.tmp
+2020-06-25 14:29:10,606 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:10,606 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\MXTmpFiles\dma.tmp_save
+2020-06-25 14:29:10,822 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:10,821 [INFO] CodeEngine:206 - Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\MXTmpFiles\dma.tmp
+2020-06-25 14:29:10,856 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:10,856 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\MXTmpFiles\dma_GV.tmp_save
+2020-06-25 14:29:11,142 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:11,141 [INFO] CodeEngine:206 - Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\MXTmpFiles\dma_GV.tmp
+2020-06-25 14:29:11,190 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:11,189 [INFO] ApiDbMcu:451 - Load IP Config File for MotorControl
+2020-06-25 14:29:11,303 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:11,302 [INFO] Middleware:1103 - No code input for Bsp Dependency
+2020-06-25 14:29:11,437 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:11,437 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\motorcontrol.c_save
+2020-06-25 14:29:12,666 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\motorcontrol.c
+2020-06-25 14:29:12,740 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:12,739 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\motorcontrol.h_save
+2020-06-25 14:29:13,202 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\motorcontrol.h
+2020-06-25 14:29:13,283 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:13,282 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\drive_parameters.h_save
+2020-06-25 14:29:14,575 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\drive_parameters.h
+2020-06-25 14:29:14,721 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:14,721 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_tasks.h_save
+2020-06-25 14:29:15,272 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_tasks.h
+2020-06-25 14:29:15,322 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:15,322 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_api.c_save
+2020-06-25 14:29:16,244 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_api.c
+2020-06-25 14:29:16,387 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:16,387 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\motor_control_protocol.c_save
+2020-06-25 14:29:16,743 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\motor_control_protocol.c
+2020-06-25 14:29:16,808 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:16,808 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\motor_control_protocol.h_save
+2020-06-25 14:29:17,358 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\motor_control_protocol.h
+2020-06-25 14:29:17,407 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:17,407 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_api.h_save
+2020-06-25 14:29:18,357 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_api.h
+2020-06-25 14:29:18,551 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:18,550 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_config.c_save
+2020-06-25 14:29:19,556 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_config.c
+2020-06-25 14:29:19,606 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:19,605 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_config.h_save
+2020-06-25 14:29:20,092 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_config.h
+2020-06-25 14:29:20,186 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:20,185 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_stm_types.h_save
+2020-06-25 14:29:20,769 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_stm_types.h
+2020-06-25 14:29:20,906 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:20,905 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_tasks.c_save
+2020-06-25 14:29:22,364 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_tasks.c
+2020-06-25 14:29:22,489 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:22,488 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\regular_conversion_manager.c_save
+2020-06-25 14:29:22,909 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\regular_conversion_manager.c
+2020-06-25 14:29:22,950 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:22,950 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\regular_conversion_manager.h_save
+2020-06-25 14:29:23,320 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\regular_conversion_manager.h
+2020-06-25 14:29:23,384 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:23,383 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_math.c_save
+2020-06-25 14:29:23,787 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_math.c
+2020-06-25 14:29:23,864 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:23,864 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_math.h_save
+2020-06-25 14:29:24,219 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_math.h
+2020-06-25 14:29:24,268 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:24,267 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_interface.c_save
+2020-06-25 14:29:24,566 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_interface.c
+2020-06-25 14:29:24,603 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:24,603 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_interface.h_save
+2020-06-25 14:29:24,847 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_interface.h
+2020-06-25 14:29:24,906 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:24,905 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\parameters_conversion.h_save
+2020-06-25 14:29:25,517 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\parameters_conversion.h
+2020-06-25 14:29:25,572 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:25,571 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\parameters_conversion_f0xx.h_save
+2020-06-25 14:29:25,989 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\parameters_conversion_f0xx.h
+2020-06-25 14:29:26,054 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:26,053 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\pmsm_motor_parameters.h_save
+2020-06-25 14:29:26,531 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\pmsm_motor_parameters.h
+2020-06-25 14:29:26,615 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:26,615 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\power_stage_parameters.h_save
+2020-06-25 14:29:26,872 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\power_stage_parameters.h
+2020-06-25 14:29:26,952 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:26,951 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\stm32f0xx_mc_it.c_save
+2020-06-25 14:29:27,545 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\stm32f0xx_mc_it.c
+2020-06-25 14:29:27,579 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:27,579 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_parameters.h_save
+2020-06-25 14:29:28,051 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\mc_parameters.h
+2020-06-25 14:29:28,107 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:28,106 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_parameters.c_save
+2020-06-25 14:29:29,224 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\mc_parameters.c
+2020-06-25 14:29:29,310 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:29,307 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\ui_task.c_save
+2020-06-25 14:29:29,555 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\ui_task.c
+2020-06-25 14:29:29,607 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:29,607 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\ui_task.h_save
+2020-06-25 14:29:29,966 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\ui_task.h
+2020-06-25 14:29:29,998 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:29,997 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\user_interface.c_save
+2020-06-25 14:29:30,180 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\user_interface.c
+2020-06-25 14:29:30,205 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:30,205 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\user_interface.h_save
+2020-06-25 14:29:30,770 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\user_interface.h
+2020-06-25 14:29:30,835 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:30,835 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\stm32f0xx_it.c_save
+2020-06-25 14:29:31,667 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\stm32f0xx_it.c
+2020-06-25 14:29:32,147 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:32,147 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\stm32f0xx_it.h_save
+2020-06-25 14:29:32,499 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\stm32f0xx_it.h
+2020-06-25 14:29:32,553 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:32,552 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\stm32f0xx_hal_msp.c_save
+2020-06-25 14:29:33,182 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\stm32f0xx_hal_msp.c
+2020-06-25 14:29:33,280 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:33,279 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\MXTmpFiles\system.tmp_save
+2020-06-25 14:29:33,818 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:33,818 [INFO] CodeEngine:206 - Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\MXTmpFiles\system.tmp
+2020-06-25 14:29:33,866 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:33,865 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\stm32_assert.h_save
+2020-06-25 14:29:34,396 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\stm32_assert.h
+2020-06-25 14:29:34,464 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:34,463 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\stm32f0xx_hal_conf.h_save
+2020-06-25 14:29:35,037 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\stm32f0xx_hal_conf.h
+2020-06-25 14:29:35,319 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:35,319 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\main.h_save
+2020-06-25 14:29:35,654 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Inc\main.h
+2020-06-25 14:29:35,693 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:35,691 [INFO] CodeEngine:188 - oldGeneratedFile, C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\main.c_save
+2020-06-25 14:29:36,420 INFO  [LineInfo_to_exitCode.log_LineInfo] Generated code: C:\workspace\STSW-ROBOT-1\EVALKIT_ROBOT_1_SDK544_Positioning_LL\Src\main.c
+2020-06-25 14:29:38,549 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:38,548 [INFO] ProjectBuilder:2002 - Time for Copy HAL[0] : 486mS.
+2020-06-25 14:29:38,591 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:38,590 [INFO] ProjectBuilder:2727 - Project Generator version: 3.7.1
+2020-06-25 14:29:39,645 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:39,644 [INFO] ConfigFileManager:1066 - The Die is : DIE444
+2020-06-25 14:29:55,829 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:55,829 [INFO] ConfigFileManager:1883 - mx.scratch is deleted!
+2020-06-25 14:29:55,829 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:55,829 [INFO] ProjectBuilder:2894 - Time for Generating toolchain IDE Files: 17239mS.
+2020-06-25 14:29:58,204 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:29:58,203 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 2374mS.
+2020-06-25 14:30:00,149 DEBUG [LineInfo_to_exitCode.log_LineInfo] 2020-06-25 14:30:00,148 [INFO] ProjectBuilder:1878 - Time for Copy CMSIS : 1935mS.
+2020-06-25 14:30:06,042 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\STM32CubeMX.exe'
+2020-06-25 14:30:06,042 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX\plugins\updater.jar'
+2020-06-25 14:30:06,048 DEBUG [CubeMxCtx.EXE_version] Loaded path: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX 5.4\STM32CubeMX.exe'
+2020-06-25 14:30:06,049 DEBUG [CubeMxCtx.EXE_version] Loaded updater jar: 'C:\Program Files\STMicroelectronics\STM32Cube\STM32CubeMX 5.4\plugins\updater.jar'
+2020-06-25 14:30:11,872 INFO  [Main.lambda$run$0] Code generation completed
+2020-06-25 14:30:11,874 DEBUG [Main.lambda$run$0] System exists with return code 0
